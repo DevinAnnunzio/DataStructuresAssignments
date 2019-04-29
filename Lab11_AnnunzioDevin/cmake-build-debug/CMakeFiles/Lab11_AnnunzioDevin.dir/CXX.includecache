@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab11_AnnunzioDevin/heap.h
+iostream
+-
+vector
+-
+heap.template
+/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab11_AnnunzioDevin/heap.template
+
+/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab11_AnnunzioDevin/heap.template
+iostream
+-
+cassert
+-
+vector
+-
+heap.h
+/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab11_AnnunzioDevin/heap.h
+
+/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab11_AnnunzioDevin/priority_queue.h
+heap.h
+/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab11_AnnunzioDevin/heap.h
+priority_queue.template
+/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab11_AnnunzioDevin/priority_queue.template
+
+/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab11_AnnunzioDevin/priority_queue.template
+iostream
+-
+cassert
+-
+
+/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab11_AnnunzioDevin/test_priority_queue.cpp
+priority_queue.h
+/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab11_AnnunzioDevin/priority_queue.h
+iostream
+-
+

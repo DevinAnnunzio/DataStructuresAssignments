@@ -1,0 +1,133 @@
+
+
+#include <cstdlib>
+#include <stack>
+
+#include "sequence4.h"
+
+namespace stack_sequence_4
+{
+    template <class T>
+    sequence<T>::sequence( )
+    {
+        first=std::stack<T>();
+        second= std::stack<T>();
+
+
+    }
+// MODIFICATION MEMBER FUNCTIONS
+//   void start( )
+//     Postcondition: The first item on the sequence becomes the current item
+//     (but if the sequence is empty, then there is no current item).
+    template <class T>
+    void sequence<T>::start( )
+    {
+
+        while(first.size()>0)
+        {
+            second.push(first.top());
+            first.pop();
+        }
+    }
+    //   void advance( )
+//     Precondition: is_item returns true.
+//     Postcondition: If the current item was already the last item in the
+//     sequence, then there is no longer any current item. Otherwise, the new
+//     current item is the item immediately after the original current item.
+    template <class T>
+    void sequence<T>::advance( )
+    {
+
+        if(!second.empty()){
+
+            first.push(second.top());
+            second.pop();
+        }
+
+
+
+    }
+    //   void insert(const value_type& entry)
+//     Postcondition: A new copy of entry has been inserted in the sequence
+//     before the current item. If there was no current item, then the new entry
+//     has been inserted at the front of the sequence. In either case, the newly
+//     inserted item is now the current item of the sequence.
+    template <class T>
+    void sequence<T>::insert(const T& entry)
+    {
+        if (second.empty())
+            while (!first.empty())
+            {
+
+                second.push(first.top());
+                first.pop();
+            }
+        second.push(entry);
+
+    }
+    //   void attach(const value_type& entry)
+//     Postcondition: A new copy of entry has been inserted in the sequence after
+//     the current item. If there was no current item, then the new entry has
+//     been attached to the end of the sequence. In either case, the newly
+//     inserted item is now the current item of the sequence.
+    template <class T>
+    void sequence<T>::attach(const T& entry)
+    {
+        if(second.empty()){
+
+
+            second.push(entry);
+
+
+        }
+
+        else{
+            first.push(second.top());
+            second.pop();
+            second.push(entry);}
+
+
+    }
+
+    //   void remove_current( )
+//     Precondition: is_item returns true.
+//     Postcondition: The current item has been removed from the sequence, and the
+//     item after this (if there is one) is now the new current item.
+    template <class T>
+    void sequence<T>::remove_current( )
+    {
+
+        if(!second.empty());
+            second.pop();
+
+    }
+// CONSTANT MEMBER FUNCTIONS
+//   bool is_item( ) const
+//     Postcondition: A true return value indicates that there is a valid
+//     "current" item that may be retrieved by activating the current
+//     member function (listed below). A false return value indicates that
+//     there is no valid current item.
+    template <class T>
+    bool sequence<T>::is_item( ) const
+    {
+        return (!second.empty());
+
+    }
+
+    //   value_type current( ) const
+//     Precondition: is_item( ) returns true.
+//     Postcondition: The item returned is the current item in the sequence.
+    template <class T>
+    T sequence<T>::current( ) const
+    {
+
+        return second.top();
+    }
+
+    // CONSTANT MEMBER FUNCTIONS for the sequence class:
+//   size_type size( ) const
+//     Postcondition: The return value is the number of items in the sequence.
+
+
+
+}

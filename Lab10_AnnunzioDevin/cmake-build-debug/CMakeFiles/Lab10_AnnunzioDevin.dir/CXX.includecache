@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab10_AnnunzioDevin/bintree.h
+cstdlib
+-
+bintree.template
+/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab10_AnnunzioDevin/bintree.template
+
+/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab10_AnnunzioDevin/bintree.template
+cassert
+-
+cstdlib
+-
+iomanip
+-
+iostream
+-
+
+/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab10_AnnunzioDevin/testBreadthFirstTraversal.cpp
+bintree.h
+/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab10_AnnunzioDevin/bintree.h
+cassert
+-
+cstdlib
+-
+iomanip
+-
+iostream
+-
+queue
+-
+

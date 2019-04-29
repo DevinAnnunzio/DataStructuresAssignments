@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab13_AnnunzioDevin/lab13.cpp
+iostream
+-
+cstdlib
+-
+cassert
+-
+ctime
+-
+

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Lab9_AnnunzioDevin"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab9_AnnunzioDevin">
+				<Option output="/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug/Lab9_AnnunzioDevin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab9_AnnunzioDevin"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab9_AnnunzioDevin/fast">
+				<Option output="/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug/Lab9_AnnunzioDevin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab9_AnnunzioDevin/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/CMakeLists.txt">
+			<Option target="Lab9_AnnunzioDevin"/>
+		</Unit>
+		<Unit filename="/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/bintree.h">
+			<Option target="Lab9_AnnunzioDevin"/>
+		</Unit>
+		<Unit filename="/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/bintree.template">
+			<Option target="Lab9_AnnunzioDevin"/>
+		</Unit>
+		<Unit filename="/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/expression_tree.cpp">
+			<Option target="Lab9_AnnunzioDevin"/>
+		</Unit>
+		<Unit filename="/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/expression_tree.h">
+			<Option target="Lab9_AnnunzioDevin"/>
+		</Unit>
+		<Unit filename="/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/lab10.cpp">
+			<Option target="Lab9_AnnunzioDevin"/>
+		</Unit>
+		<Unit filename="/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab9_AnnunzioDevin/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

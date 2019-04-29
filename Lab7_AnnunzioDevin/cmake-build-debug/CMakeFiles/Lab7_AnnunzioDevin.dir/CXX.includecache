@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab7_AnnunzioDevin/node2.h
+cstdlib
+-
+iterator
+-
+node2.template
+/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab7_AnnunzioDevin/node2.template
+
+/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab7_AnnunzioDevin/node2.template
+cassert
+-
+cstdlib
+-
+
+/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab7_AnnunzioDevin/sequence4.h
+cstdlib
+-
+node2.h
+/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab7_AnnunzioDevin/node2.h
+sequence4.template
+/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab7_AnnunzioDevin/sequence4.template
+
+/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab7_AnnunzioDevin/sequence4.template
+cassert
+-
+
+/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab7_AnnunzioDevin/sequence_exam4.cpp
+iostream
+-
+cstdlib
+-
+sequence4.h
+/Users/devin/Desktop/DataStructuresCode/DataStructures/Lab7_AnnunzioDevin/sequence4.h
+

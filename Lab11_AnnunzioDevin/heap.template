@@ -1,0 +1,138 @@
+
+#include <iostream>
+#include <cassert>
+#include <vector>
+#include "heap.h"
+
+template<typename T>
+heap<T>::heap() {
+    // postcondition: empty heap created
+}
+
+template<typename T>
+size_t heap<T>::size() const {
+    // returned the number of elements in the heap
+    return v.size();
+}
+
+template<typename T>
+bool heap<T>::is_empty() const {
+    // returned: whether or not the heap is empty
+    return size() == 0;
+}
+
+template<typename T>
+void heap<T>::insert(const T &item) {
+
+    // postcondition: item has been added
+    v.push_back(item);
+
+    int child_index = size() - 1;               //  child index
+    int parent_index = (child_index - 1) / 2;   //  parent index
+
+    if (parent_index < 0) {
+        return;
+    }
+
+    while (child_index > 0) {
+        if (v[parent_index] < v[child_index]) { //  swap parent and child
+
+            T temp = v[parent_index];           //  temporarily holds value of parent
+            v[parent_index] = v[child_index];   //  child becomes the parent
+            v[child_index] = temp;              //  parent becomes the child
+            child_index = parent_index;         //  index swap
+            parent_index = (child_index - 1) / 2;
+
+        } else {
+            break;
+        }
+
+    }
+
+}
+
+template<typename T>
+void heap<T>::remove() {
+    // precondition: heap is not empty
+    assert(!is_empty());
+
+    // postcondition: largest item has been removed from the heap
+    if (size() == 1) {
+        v.erase(v.begin());
+        return;
+    }
+
+    v[0] = v[v.size() - 1];
+    v.erase(v.begin() + v.size() - 1);
+
+    int parent_index = 0;
+    int child_index = 0;
+    while (size() > (parent_index * 2) + 1) {
+
+        child_index = max_child(parent_index);
+        if (v[child_index] > v[parent_index]) { //  swap child and parent
+
+            T temp = v[parent_index];
+            v[parent_index] = v[child_index];
+            v[child_index] = temp;
+            parent_index = child_index;
+
+        } else {
+            break;
+        }
+
+    }
+
+}
+
+template<typename T>
+T heap<T>::max() const {
+    // precondition: heap is not empty
+    assert(!is_empty());
+    // returned: copy of largest element in the heap
+    return v[0];
+}
+
+template<typename T>
+T &heap<T>::max() {
+    // precondition: heap is not empty
+    assert(!is_empty());
+    // returned: access to largest element in the heap
+    return v[0];
+}
+
+template<typename T>
+size_t heap<T>::max_child(size_t index) const {
+    // precondition: element at index has children
+    int left_child = (int) ((index * 2) + 1);
+    int right_child = (int) ((index * 2) + 2);
+    assert(v.size() > left_child);
+    // returned: index of the larger child - if there is only 1 child
+    //           index of that child has been returned
+    if (v.size() > right_child) {                   //  two children
+
+        if (v.at(left_child) > v.at(right_child)) {  //  left is max_child
+
+            return left_child;
+
+        } else {                                    //  right is max_child
+
+            return right_child;
+
+        }
+
+    } else {                                        //  only one child
+
+        return left_child;
+
+    }
+
+}
+
+template<typename T>
+size_t heap<T>::parent(size_t index) {
+    // precondition: index > 0
+    assert(index > 0);
+    // returned: location of parent of element at index
+    return ((v.at((index - 1) / 2)));
+}

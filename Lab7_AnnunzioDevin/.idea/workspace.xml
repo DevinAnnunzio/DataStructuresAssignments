@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Lab7_AnnunzioDevin" targetName="Lab7_AnnunzioDevin" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c305384c-6f6e-4b12-9f08-7014cc7fe4f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/DataStructures.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Lab7_AnnunzioDevin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab7_AnnunzioDevin.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab7_AnnunzioDevin.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab7_AnnunzioDevin.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab7_AnnunzioDevin.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab7_AnnunzioDevin.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab7_AnnunzioDevin.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab7_AnnunzioDevin.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab7_AnnunzioDevin.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab7_AnnunzioDevin.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Lab7_AnnunzioDevin.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node2.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sequence4.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sequence_exam4.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/DataStructures.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/DataStructures.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/DataStructures.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/DataStructures.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/DataStructures.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/DataStructures.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/DataStructures.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/DataStructures.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/Lab1-Exercise1-DevinAnnunzio/Lab1-Exercise1-DevinAnnunzio.xcodeproj/project.xcworkspace/xcuserdata/devin.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/Lab1-Exercise1-DevinAnnunzio/Lab1-Exercise1-DevinAnnunzio.xcodeproj/project.xcworkspace/xcuserdata/devin.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/Lab1-Exercise1-DevinAnnunzio/Lab1-Exercise1-DevinAnnunzio/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/Lab1-Exercise1-DevinAnnunzio/Lab1-Exercise1-DevinAnnunzio/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6_AnnunzioDevin/Lab6_AnnunzioDevin.xcodeproj/project.xcworkspace/xcuserdata/devin.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6_AnnunzioDevin/Lab6_AnnunzioDevin.xcodeproj/project.xcworkspace/xcuserdata/devin.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6_AnnunzioDevin/Lab6_AnnunzioDevin/sequence3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6_AnnunzioDevin/Lab6_AnnunzioDevin/sequence3.cpp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sequence4.template">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="193" column="12" lean-forward="true" selection-start-line="193" selection-start-column="12" selection-end-line="193" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sequence_exam4.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3165">
+              <caret line="211" column="9" selection-start-line="211" selection-start-column="9" selection-end-line="211" selection-end-column="9" />
+              <folding>
+                <element signature="e#508#549#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>temp</find>
+      <find>valu</find>
+      <find>value_type</find>
+      <find>const T&amp; entry</find>
+      <find>current()</find>
+      <find>type</find>
+      <find>if the</find>
+      <find>const T</find>
+      <find>Item sequence</find>
+      <find>&amp;</find>
+      <find>Item</find>
+      <find>sequence</find>
+      <find>sequence&lt;</find>
+      <find>insert</find>
+      <find>size</find>
+      <find>size_t</find>
+      <find>value_</find>
+      <find>template</find>
+      <find>::current</find>
+      <find>node</find>
+      <find>current</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sequence_exam4.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/node2.h" />
+        <option value="$PROJECT_DIR$/sequence4.h" />
+        <option value="$PROJECT_DIR$/sequence4.template" />
+      </list>
+    </option>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="20" />
+    <option name="y" value="50" />
+    <option name="width" value="1260" />
+    <option name="height" value="680" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Lab7_AnnunzioDevin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab7_AnnunzioDevin" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Lab7_AnnunzioDevin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Source Files'; set:Project Source Files; class com.jetbrains.cidr.lang.search.scopes.ProjectSourcesScopeProvider$SourceFilesScope">
+          <expand>
+            <path>
+              <item name="Lab7_AnnunzioDevin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Lab7_AnnunzioDevin" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lab7_AnnunzioDevin" TARGET_NAME="Lab7_AnnunzioDevin" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lab7_AnnunzioDevin" RUN_TARGET_NAME="Lab7_AnnunzioDevin">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c305384c-6f6e-4b12-9f08-7014cc7fe4f2" name="Default Changelist" comment="" />
+      <created>1551138868864</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551138868864</updated>
+      <workItem from="1551138871871" duration="3283000" />
+      <workItem from="1551142238575" duration="329000" />
+      <workItem from="1551142687547" duration="1144000" />
+      <workItem from="1551143855329" duration="44000" />
+      <workItem from="1551216637231" duration="352000" />
+      <workItem from="1551227075182" duration="563000" />
+      <workItem from="1551227904220" duration="1227000" />
+      <workItem from="1551229669724" duration="1195000" />
+      <workItem from="1551232385623" duration="1499000" />
+      <workItem from="1551235329479" duration="2300000" />
+      <workItem from="1551381333443" duration="221000" />
+      <workItem from="1551381893352" duration="638000" />
+      <workItem from="1551398049533" duration="298000" />
+      <workItem from="1551738016589" duration="215000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13308000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="20" y="50" width="1260" height="680" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48469388" visible="true" weight="0.30623972" />
+      <window_info id="Structure" order="1" sideWeight="0.5153061" side_tool="true" visible="true" weight="0.30623972" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32993197" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32993197" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32993197" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32993197" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32993197" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32993197" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.cpp" />
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/type_traits">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="540" column="37" selection-start-line="540" selection-start-column="37" selection-end-line="540" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sequence_exam3.cpp" />
+    <entry file="file://$PROJECT_DIR$/node2.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="e#410#450#0" expanded="true" />
+            <element signature="e#543#555#0" expanded="true" />
+            <element signature="e#724#736#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node2.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="238" column="4" lean-forward="true" selection-start-line="238" selection-start-column="4" selection-end-line="238" selection-end-column="4" />
+          <folding>
+            <element signature="e#7103#7151#0" expanded="true" />
+            <element signature="e#7261#7273#0" expanded="true" />
+            <element signature="e#8058#8070#0" expanded="true" />
+            <element signature="e#10211#10223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sequence4.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="786">
+          <caret line="77" column="36" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
+          <folding>
+            <element signature="e#3207#3245#0" expanded="true" />
+            <element signature="e#3329#3341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="106" selection-start-line="5" selection-start-column="106" selection-end-line="5" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sequence4.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="193" column="12" lean-forward="true" selection-start-line="193" selection-start-column="12" selection-end-line="193" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sequence_exam4.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3165">
+          <caret line="211" column="9" selection-start-line="211" selection-start-column="9" selection-end-line="211" selection-end-column="9" />
+          <folding>
+            <element signature="e#508#549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
